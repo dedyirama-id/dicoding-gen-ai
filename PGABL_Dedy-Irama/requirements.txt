@@ -1,0 +1,20 @@
+unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git
+trl
+peft
+accelerate
+bitsandbytes
+xformers
+datasets
+transformers
+huggingface_hub
+sentence-transformers
+pypdf
+gdown
+langchain
+langchain-community
+langchain-huggingface
+faiss-cpu
+rank-bm25
+gradio
+matplotlib
+pandas
