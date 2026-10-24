@@ -1,1 +1,16 @@
 .env
+
+# Data & artefak besar
+data/*.pdf
+outputs/
+*.zip
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+
+# Tooling lokal
+.agents/
+.codex/
+.vscode/
