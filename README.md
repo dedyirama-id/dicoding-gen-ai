@@ -5,7 +5,7 @@
 ![LangChain](https://img.shields.io/badge/LangChain-RAG-1C3C3C)
 ![FAISS](https://img.shields.io/badge/FAISS-vector%20search-0467DF)
 ![Gradio](https://img.shields.io/badge/Gradio-UI-F97316?logo=gradio&logoColor=white)
-[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Model-dedyirama%2Fdicoding--llm-FFD21E)](https://huggingface.co/dedyirama/dicoding-llm)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Model-dedyirama%2Fqwen2.5--1.5b--indonesian--qlora-FFD21E)](https://huggingface.co/dedyirama/qwen2.5-1.5b-indonesian-qlora)
 
 A two-part Generative AI project built on a free Colab T4 GPU:
 
@@ -51,7 +51,7 @@ flowchart LR
 | Dataset | [`Ichsan2895/alpaca-gpt4-indonesian`](https://huggingface.co/datasets/Ichsan2895/alpaca-gpt4-indonesian): 49,969 general-purpose instruction/response pairs, split 95/5 into train (47,470) and validation (2,499) |
 | Method | QLoRA: 4-bit NF4 with double quantization; LoRA adapters on all attention and MLP projections |
 | Training | TRL `SFTTrainer`, 800 steps (~0.13 epoch), effective batch size 8, `adamw_8bit`, single Tesla T4 |
-| Output | Best adapter merged to 16-bit and published as [`dedyirama/dicoding-llm`](https://huggingface.co/dedyirama/dicoding-llm) |
+| Output | Best adapter merged to 16-bit and published as [`dedyirama/qwen2.5-1.5b-indonesian-qlora`](https://huggingface.co/dedyirama/qwen2.5-1.5b-indonesian-qlora) |
 
 The fine-tuning goal is better Indonesian instruction following in general. The model was **not** trained on legal text; domain knowledge comes from retrieval in Part 2.
 
