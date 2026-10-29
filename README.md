@@ -16,8 +16,8 @@ This was my final project for Dicoding Academy's *Pengembangan Generative AI ber
 
 | Notebook | What it covers | Colab |
 | --- | --- | --- |
-| [01_fine_tuning_qlora.ipynb](notebooks/01_fine_tuning_qlora.ipynb) | QLoRA fine-tuning, two experiments, merge and push to the Hub | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dedyirama-id/dicoding-gen-ai/blob/main/notebooks/01_fine_tuning_qlora.ipynb) |
-| [02_rag_legal_assistant.ipynb](notebooks/02_rag_legal_assistant.ipynb) | Document ingestion, hybrid retrieval, cited generation, Gradio demo | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dedyirama-id/dicoding-gen-ai/blob/main/notebooks/02_rag_legal_assistant.ipynb) |
+| [01_fine_tuning_qlora.ipynb](notebooks/01_fine_tuning_qlora.ipynb) | QLoRA fine-tuning, two experiments, merge and push to the Hub | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dedyirama-id/indonesian-labor-law-rag/blob/main/notebooks/01_fine_tuning_qlora.ipynb) |
+| [02_rag_legal_assistant.ipynb](notebooks/02_rag_legal_assistant.ipynb) | Document ingestion, hybrid retrieval, cited generation, Gradio demo | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dedyirama-id/indonesian-labor-law-rag/blob/main/notebooks/02_rag_legal_assistant.ipynb) |
 
 ## Architecture
 
